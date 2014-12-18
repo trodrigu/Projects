@@ -35,5 +35,6 @@ def main(n):
 
 
 print main(0)
+print '\n'
 print main(1)
 print main(10000)
