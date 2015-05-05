@@ -1,6 +1,6 @@
 Mega Project List
 ========
-Tommy's Repo of practical projects I solve in Ruby to learn the language.
+Tommy's Repo of practical projects I solved in Ruby to learn the language.
 A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has it's own folder.
 
 To get started, simply fork this repo.
