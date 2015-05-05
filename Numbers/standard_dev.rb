@@ -13,10 +13,10 @@ answer = Integer(gets.chomp)
 array.push(answer)
 
 loop do
-	puts( "Put in another number?" )
-	loopanswer = gets.chomp
-	break if loopanswer == "n"
-	array.push(Integer(loopanswer))
+  puts( "Put in another number?" )
+  loopanswer = gets.chomp
+  break if loopanswer == "n"
+  array.push(Integer(loopanswer))
 end
 
 # Print the array
@@ -42,13 +42,13 @@ puts( "The standard deviation is #{sd}" )
 
 # Median
 if array.length.odd?
-	median_index = array.length / 2
-	median = array[median_index]
+  median_index = array.length / 2
+  median = array[median_index]
 else
-	m1 = (array.length / 2) - 1
-	m2 = (array.length / 2)
-	sum_m = array[m1] + array[m2]
-	median = (array[m1].to_d + array[m2].to_d) / 2.0
+  m1 = (array.length / 2) - 1
+  m2 = (array.length / 2)
+  sum_m = array[m1] + array[m2]
+  median = (array[m1].to_d + array[m2].to_d) / 2.0
 end
 
 puts( "The median is #{median}" )
